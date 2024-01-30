@@ -8,7 +8,13 @@ print (total)
 
 #---------------------------------------------------------------
 
-list = input("give me a list (seperate numbers with commas): ").split(",")
+
+list = []
+while 1:
+    num = int(input("Give me a number: "))
+    if num == -1:
+        break
+    list.append(num)
 print (list)
 for number in list:
     number = int(number)
