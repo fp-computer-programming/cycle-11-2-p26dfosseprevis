@@ -15,7 +15,6 @@ while 1:
     if num == -1:
         break
     list.append(num)
-print (list)
 for number in list:
     number = int(number)
     if number % 3 != 0:
